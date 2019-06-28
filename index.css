@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 650px){
+    #language-list {
+        
+    }
+}
+
+main {
+    text-align: center;
+}
+
+#profile-pic {
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+    transition: transform 0.3s;
+}
+
+#profile-pic:hover {
+    transform: scale(1.1);
+}
+
+#language-list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: space-around;
+}
+
+#language-list li {
+    width: 200px;
+    margin: auto;
+    padding: 15px;
+}
+
+#language-list li img {
+    width: 100%;
+}
